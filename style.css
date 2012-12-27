@@ -1,0 +1,39 @@
+/*
+Theme Name: cortext
+Theme URI: http://cortext.net
+Author: TK Duong
+Author URI: http://cendres.net/
+Version: 1.0
+Tags: cortext, instutiontional, white
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('css/reset.css');
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+header hgroup { width : 960px; margin : 0 auto; position : relative; }
+header h1 a { display :block; background: url('images/logo-cortext-header.png'); width : 356px; height : 116px; color : transparent; }
+header h2 { position : absolute; left : 364px; top : 68px; font-size: 16px; color : #999; }
+
+nav { clear : both; width : 100%; height : 35px; background-color: #626777; border-bottom : solid 5px #DC67A6; margin-top : 7px; }
+nav ul { background-color: #424F57; height : 35px; width : 960px; border-bottom : solid 5px #C4017B; margin : 0 auto; overflow: hidden; }
+nav li { display : block; float : left; height: 35px; margin-top : 9px; }
+nav li a { font : normal 14px/13px arial; height : 14px; border-bottom: solid 5px #C4017B; padding : 10px; text-decoration : none; color : #B3B9BC; }
+nav li a:hover { background-color: #626777; color : white; }
+
+footer { background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
+footer > div { width : 960px; margin : 0 auto; }
+
+footer #address h3 { display : block; color : transparent; background : url('images/logo-cortext-footer.png'); width : 183px; height :  28px; margin-bottom : 16px; }
+footer #address div { color : white; font-size : 12px; line-height: 1.5em; margin-left : 68px; }
+footer #address div span { display : block; }
+footer #address div.email { margin-top : 1em; color : #B3B9BC }
+
+#members { font-size : 12px; color : #333; line-height : 120%; }
+#members li { width : 145px; }
+#members li span { display : block; }
+#members li span.name { text-transform: capitalize; }
+#members li span.shortbio { color : #999; }
