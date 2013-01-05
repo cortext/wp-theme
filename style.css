@@ -12,11 +12,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url('css/reset.css');
 
+@font-face { font-family: Museo300; src: url('fonts/Museo300-Regular.otf'); }
+@font-face { font-family: Museo500; src: url('fonts/Museo500-Regular.otf'); }
+@font-face { font-family: Museo700; src: url('fonts/Museo700-Regular.otf'); }
+
 body { font-family: Arial, Helvetica, sans-serif; }
 
 header hgroup { width : 960px; margin : 0 auto; position : relative; }
 header h1 a { display :block; background: url('images/logo-cortext-header.png'); width : 356px; height : 116px; color : transparent; }
 header h2 { position : absolute; left : 364px; top : 68px; font-size: 16px; color : #999; }
+header h2 a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
+header h2 a:hover { border-bottom-width: 2px; }
 
 nav { clear : both; width : 100%; height : 35px; background-color: #626777; border-bottom : solid 5px #DC67A6; margin-top : 7px; }
 nav ul { background-color: #424F57; height : 35px; width : 960px; border-bottom : solid 5px #C4017B; margin : 0 auto; overflow: hidden; }
@@ -24,7 +30,41 @@ nav li { display : block; float : left; height: 35px; margin-top : 9px; }
 nav li a { font : normal 14px/13px arial; height : 14px; border-bottom: solid 5px #C4017B; padding : 10px; text-decoration : none; color : #B3B9BC; }
 nav li a:hover { background-color: #626777; color : white; }
 
-footer { background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
+#primary { width : 100%; }
+#content { width : 960px; margin : 0 auto; color : #666; }
+
+#content .col { width : 300px; float : left; margin-left : 10px; }
+#content .col.col-w-2 { width : 310px; }
+
+#content h3 { font-family: Museo500; color : #333333; font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
+#content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
+#content .col p { margin-bottom : 20px; font-size: 12px; line-height: 15px; }
+#content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
+
+#content .abstract p { font-family : georgia; font-size: 18px; line-height : 20px; text-align: right; }
+
+.projects .project { width : 620px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
+.projects .project .thumbnail { background : #F5A4DA; width : 300px; height : 1000px; position : absolute; top : 0; }
+.projects .project h4 { width : 300px; position : relative; left : 320px; }
+.projects .project .excerpt { width : 300px; position : relative; left : 320px; font-size : 12px; line-height: 15px; color : #666666; }
+
+article { position : relative; margin-top : 20px; }
+
+article h1 { font : normal 18px/1.2em Museo700, arial, serif; padding : 0.5em 10px 0.5em 10px; width : 750px; color : white; background : #B2B2B2; position : relative; left : 190px; }
+/*article .type { width : 170px; font : normal 20px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : red; text-align : right; color : white; position : relative; margin-bottom : -34px; top : -44px; } */
+
+article .type { width : 170px; font : normal 18px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : white; text-align : right; color : #B2B2B2; position : relative; margin-bottom : -34px; top : -39px; }
+article .entry-content { width : 490px; position : relative; left : 190px; color : #414E57; }
+article .entry-content p { font : normal 14px/1.5em arial; margin-bottom : 0.8em; }
+article .entry-content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
+article .entry-content > img { position : relative; left : -170px; }
+article .entry-content div { position : relative; }
+article .entry-content div > img, article .entry-content p > img { position : relative; left : -170px; width : 660px; margin-top : 0.8em; }
+article .entry-content div > img { margin-bottom : 0.8em; }
+article .entry-content div > .wp-caption-text { position : absolute; top : 0; left : 495px; width : 300px; color : #B2B2B2; }
+article .entry-content a:hover { border-bottom-width: 2px; }
+
+footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
 footer > div { width : 960px; margin : 0 auto; }
 
 footer #address h3 { display : block; color : transparent; background : url('images/logo-cortext-footer.png'); width : 183px; height :  28px; margin-bottom : 16px; }
