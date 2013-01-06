@@ -16,7 +16,7 @@ The most common formatting you need are :
 
 - emphasis ``**emphasis**``
 - italic ``***italic***``
-- link [text](url)
+- link ``[text](url)`` 
 - underline ``__underline__``
 - image
 

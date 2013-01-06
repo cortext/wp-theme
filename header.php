@@ -40,9 +40,9 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
-				<li><a href="">About us</a></li>
-				<li><a href="">Staff</a></li>
-				<li><a href="">Projects</a></li>
+				<li><a href="/">About us</a></li>
+				<li><a href="/#team">Team</a></li>
+				<li><a href="/#projects_platform">Projects</a></li>
 				<li><a href="">Workshops</a></li>
 				<li><a href="">News</a></li>				
 		</nav><!-- #site-navigation -->

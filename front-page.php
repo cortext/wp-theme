@@ -63,7 +63,7 @@ The numerical analysis of data. The tools available will take the form of positi
 
 </div>
 
-<div class="projects">
+<div id="projects_platform" class="projects">
 <h3>Platform's projects</h3>
 
 <?php
@@ -103,7 +103,8 @@ while ( $projects_collaboration->have_posts() ) : $projects_collaboration->the_p
 endwhile; ?>
 </div>
 
-<h3>Staff</h3>
+<div id="team">
+<h3>Team</h3>
 
 <div class="col abstract">
 	<p>Members of cortext digital platform are parts from INRA SenS and ESIEE Latts teams</p>
@@ -121,6 +122,7 @@ foreach($members as $m){?>
 	</li>
 <? } ?>
 </ul>
+</div>
 </div>
 
 </div><!-- #content -->
