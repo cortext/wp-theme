@@ -8,7 +8,7 @@
 
 ### markdown
 
-Markdown should be prefered as a format. It is widely use in a lot of context. Some are already well known such as github.
+Markdown should be prefered as a format. It is widely use in a lot of context. Some are already well known such as github or [R studio](http://www.rstudio.com/ide/docs/authoring/using_markdown). By using this format, you will also be able to write rich text in a consistent ecosystem.
 
 You should also investigated focus writing tools like IA Writer that already support markdown.
 
