@@ -36,7 +36,7 @@ nav li a:hover { background-color: #626777; color : white; }
 #content .col { width : 300px; float : left; margin-left : 10px; }
 #content .col.col-w-2 { width : 310px; }
 
-#content h3 { font-family: Museo500; color : #333333; font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
+#content h3 { font-family: Museo500; color : #999; font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
 #content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
 #content .col p { margin-bottom : 20px; font-size: 12px; line-height: 15px; }
 #content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
