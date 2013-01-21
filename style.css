@@ -18,8 +18,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
-header hgroup { width : 960px; margin : 0 auto; position : relative; }
-header h1 a { display :block; background: url('images/logo-cortext-header.png'); width : 356px; height : 116px; color : transparent; }
+header { margin-top: 7px; }
+header hgroup { width : 960px; margin : 0 auto; position : relative; background-repeat: no-repeat; background-image: url('images/ifris_logo_seule.png'); background-position: right center;}
+header h1 { padding-top : 30px; padding-bottom : 31px; }
+header h1 a { display :block; background: url('images/logo-cortext-header.png'); width : 347px; height : 55px; color : transparent; }
 header h2 { position : absolute; left : 364px; top : 68px; font-size: 16px; color : #999; }
 header h2 a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
 header h2 a:hover { border-bottom-width: 2px; }
