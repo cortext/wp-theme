@@ -13,7 +13,7 @@ function short_bio($bio){
 add_theme_support( 'post-thumbnails' ); 
 
 add_image_size( 'post-full', 960, 9999 );
-add_image_size( 'loop-front', 300, 9999 );
+add_image_size( 'loop-front', 310, 9999 );
 
 add_action( 'init', 'create_workshop_type' );
 add_action( 'init', 'create_project_type' );
