@@ -46,7 +46,7 @@ nav li a:hover { background-color: #626777; color : white; }
 #content .abstract p { font-family : georgia; font-size: 18px; line-height : 20px; text-align: right; }
 
 .projects .project { width : 620px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
-.projects .project .thumbnail { background : #F5A4DA; width : 300px; height : 1000px; position : absolute; top : 0; }
+.projects .project .thumbnail { background : #F5A4DA; width : 310px; height : 1000px; position : absolute; top : 0; }
 .projects .project h4 { width : 300px; position : relative; left : 320px; }
 .projects .project .excerpt { width : 300px; position : relative; left : 320px; font-size : 12px; line-height: 15px; color : #666666; }
 
@@ -75,7 +75,7 @@ footer #address div span { display : block; }
 footer #address div.email { margin-top : 1em; color : #B3B9BC }
 
 #members { font-size : 12px; color : #333; line-height : 120%; }
-#members li { width : 145px; float : left; margin-left : 10px; margin-bottom:  10px; }
+#members li { width : 145px; float : left; margin-right : 10px; margin-bottom:  10px; }
 #members li span { display : block; }
 #members li span.name { text-transform: capitalize; }
 #members li span.shortbio { color : #999; }
