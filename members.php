@@ -34,6 +34,7 @@ $type = get_post_type();
 
 	<div class="type"><?= $type ?></div>
 
+
 	<div class="entry-content">
 
 	<?php the_post_thumbnail('post-full'); ?>

@@ -25,6 +25,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/cortext/style.css" />
 
 <?php wp_head(); ?>
@@ -40,11 +42,11 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
-				<li><a href="/">About us</a></li>
+				<li><a href="http://localhost:8888/site-cortext/?page_id=2">About us</a></li>
 				<li><a href="/#team">Team</a></li>
 				<li><a href="/#projects_platform">Projects</a></li>
 				<li><a href="">Workshops</a></li>
-				<li><a href="">News</a></li>				
+				<li><a href="">Usages</a></li>				
 		</nav><!-- #site-navigation -->
 
 		<?php $header_image = get_header_image();
