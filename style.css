@@ -45,8 +45,7 @@ nav li a:hover { background-color: #626777; color : white; }
    
 #content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
 #content h4 a { font-family: Museo500; color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
-#content .col p { font : normal 12px arial, serif; color: #666666; font-weight: 400; line-height: 20px;
-margin-bottom: 20px; margin-top: 0; text-align: left; text-indent: 0; }
+#content .col p { font : normal 12px arial, serif; color: #666666; font-weight: 400; line-height: 20px; margin-bottom: 20px; margin-top: 0; text-align: left; text-indent: 0; }
 #content p a { color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
 
 #content .abstract p { font-family: Museo500;font-size: 17px;line-height: 24px; margin-bottom: 24px;
