@@ -44,6 +44,10 @@ nav li a:hover { background-color: #626777; color : white; }
    margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
    
 #content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
+#content h5 { font-family: Museo500; color : #333333; font-size: 25px; line-height : 25px; margin-bottom : 20px;
+margin-top:35px; }
+#content h6 { color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
+   margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : -13px; clear : both; }
 #content h4 a { font-family: Museo500; color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
 #content .col p { font : normal 12px arial, serif; color: #666666; font-weight: 400; line-height: 20px; margin-bottom: 20px; margin-top: 0; text-align: left; text-indent: 0; }
 #content p a { color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
@@ -58,25 +62,34 @@ text-align: right;}
 
 article { position : relative; margin-top : 20px; }
 
-.single-workshop article h1,.single-project article h1 { background : #F05171; }
-
+.single-workshop article h1,.single-project article h1{ background :#FF194B /*#F05171, #FF2151*/; }
+.page article h1, .single-post article h1, .single-usage article h1 {background:#63B504;}
 
 article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px; }
 /*article .type { width : 170px; font : normal 20px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : red; text-align : right; color : white; position : relative; margin-bottom : -34px; top : -44px; } */
 
 article .type { width : 170px; font : normal 20px/1.2em museo300; padding : 0.4em 0px 0.4em 0px; background : white; text-align : right; color : #393939; position : relative; margin-bottom : -34px; top : -39px; }
 article .entry-content { width : 490px; position : relative; left : 190px; color : #393939;font : normal 16px/1.7em Alice; }
-article .entry-content p { font : normal 16px/1.7em Alice; margin-bottom : 0.4em;color:#393939;
+article .entry-content p { font : normal 16px/1.7em Alice; margin-bottom : 1.4em;color:#393939;
 text-align:left; }
 a img { border: 0;}
 /*article .entry-content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
-*/article .entry-content > img { position : relative; left : -170px; }
-article .entry-content div { position : relative; }
-article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
-article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
-article .entry-content div > img { margin-bottom : 0.8em; }
+*/article .entry-content > img, .single-project .entry-content > img { position : relative; left : -170px; }
+.single-workshop article .entry-content div { position : relative; }
+.single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
+.single-project article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
+
+.single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
+.single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
+
+.single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
+.single-project article .entry-content div > img { margin-bottom : 0.8em; }
+
 article .entry-content div > .wp-caption-text { position : absolute; right :-150px; width : 300px; color : #999999;margin-top:-20px;font-size:14px; }
 article .entry-content a:hover { border-bottom-width: 2px; }
+
+#content #resume { width:250px;height:250px;background:#30C;position:relative; }
+
 
 footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
 footer > div { width : 960px; margin : 0 auto; }

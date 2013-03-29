@@ -24,6 +24,8 @@ get_header(); ?>
 
 <article>
 
+<div class="page">
+
 	<h1 class="entry-title"><?php the_title(); ?></h1>
 
 <?
@@ -39,6 +41,8 @@ $type = get_post_type();
 
 	<?php the_content() ?>
 	</div>
+
+</div>
 
 </article>
 

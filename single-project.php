@@ -23,8 +23,11 @@ get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
 <article>
+  
 
 	<h1 class="entry-title"><?php the_title(); ?></h1>
+    
+
 
 <?
 
@@ -32,14 +35,21 @@ $type = get_post_type();
 
 ?>
 
-	<div class="type"><?= $type ?></div>
+	<div class="type"><?= $type ?>
+	<?php $category = get_the_category();
+	echo $category[0]->cat_name; ?>
+	</div>
 
 
 	<div class="entry-content">
 
+
+
 	<?php the_post_thumbnail('post-full'); ?>
 
 	<?php the_content() ?>
+    
+    
 	</div>
 
 </article>

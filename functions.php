@@ -10,6 +10,8 @@ function short_bio($bio){
 //	return nl2br($bio);
 }
 
+
+
 add_theme_support( 'post-thumbnails' ); 
 
 set_post_thumbnail_size( 310, 9999 );
@@ -19,6 +21,30 @@ add_image_size( 'loop-front', 310, 9999 );
 
 add_action( 'init', 'create_workshop_type' );
 add_action( 'init', 'create_project_type' );
+add_action( 'init', 'create_usage_type' );
+
+
+
+
+
+function create_usage_type() {
+	register_post_type( 'usage',
+		array(
+			'labels' => array(
+				'name' => __( 'Usages' ),
+				'singular_name' => __( 'Usage' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+}
+
+
+
+
+
+
 
 function create_workshop_type() {
 	register_post_type( 'workshop',
