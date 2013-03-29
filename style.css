@@ -63,8 +63,8 @@ text-align: right;}
 article { position : relative; margin-top : 20px; }
 
 .single-workshop article h1,.single-project article h1{ background :#FF194B /*#F05171, #FF2151*/; }
-.page article h1, .single-post article h1, .single-usage article h1 {background:#63B504;}
-
+.page article h1, .single-post article h1 {background:#63B504;}
+.single-usage article h1 {background:#94AAD9/*#FF6517*/;}
 article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px; }
 /*article .type { width : 170px; font : normal 20px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : red; text-align : right; color : white; position : relative; margin-bottom : -34px; top : -44px; } */
 
