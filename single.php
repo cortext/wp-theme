@@ -36,7 +36,7 @@ $type = get_post_type();
 
 
 <div id="team">
-	<h5>Members of Cortext Digital Platform </h5>
+	<h2>Members of Cortext Digital Platform </h2>
     
 <div class="col col-w-2">
 	<ul id="members">
