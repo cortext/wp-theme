@@ -60,18 +60,19 @@ margin-top:35px;margin-left:15px; }
 #content .col-abstract { width:175px;position:absolute; }
 #content .col-abstract p{font-family: Museo500;font-size: 14px;line-height: 24px; text-align: right;color:#393939; }
 
-
 #content .abstract p { font-family: Museo500;font-size: 17px;line-height: 24px; margin-bottom: 24px;
 text-align: right;}
 
-.projects .project { width : 620px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
-.projects .project .thumbnail { background : #F5A4DA; width : 310px; height : 1000px; position : absolute; top : 0; }
-.projects .project h4 { width : 300px; position : relative; left : 320px; }
-.projects .project .excerpt { width : 300px; position : relative; left : 320px; font-size : 12px; line-height: 15px; color : #666666; }
+.projects .project { width : 650px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
+.projects .project .thumbnail { background : #FAFAFA; width : 310px; height : 135px; position : absolute; top : 0; }
+.projects .project h4 { width : 360px; position : relative; left : 320px; }
+.projects .project .excerpt { width : 300px; position : relative; left : 320px; font-size : 12px; line-height: 20px; color : #666666;margin-left:15px; }
 
 article { position : relative; margin-top : 20px; }
 
-.single-workshop article h1,.single-project article h1, .post-type-archive-workshop article h1 { background :#FF194B /*#F05171, #FF2151*/; }
+.single-workshop article h1,.single-project article h1, .post-type-archive-workshop article h1, .page-template-projects-php article h1 { background :#FF194B !important; }
+.page-template-projects-php article p { font: 16px/1.3em Alice !important; margin-left:-15px !important; }
+
 .page article h1, .single-post article h1 {background:#63B504;}
 .single-usage article h1, .post-type-archive-usage article h1 {background:#275bc3;}
 article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px; }
@@ -81,20 +82,22 @@ article .type { width : 170px; font : normal 20px/1.2em museo300; padding : 0.4e
 article .entry-content { width : 490px; position : relative; left : 190px; color : #393939;font : normal 16px/1.7em Alice; }
 article .entry-content p { font : normal 16px/1.7em Alice; margin-bottom : 1.4em;color:#393939;
 text-align:left;padding-left:15px; }
+article .entry-content p iframe{ margin-left:-15px;margin-bottom:-15px; }
+
 a img { border: 0;}
 /*article .entry-content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
-*/article .entry-content > img, .single-project .entry-content > img { position : relative; left : -170px; }
+*/article .entry-content > img, .single-project .entry-content > img { position : relative; /*left : -170px;*/ }
 .single-workshop article .entry-content div { position : relative; }
 .single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
-.single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px; }
+.single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px;margin-top:10px; }
 
 .single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
 .single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
 
-.single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
+.single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
 .single-project article .entry-content div > img { margin-bottom : 0.8em; }
 
-article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:5px; }
+article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
 article .usage, article .workshop{margin-top:35px;}
 article #team h2{color: #333333;font-family: Museo500;font-size: 25px;margin-bottom: 20px;margin-left: 15px;margin-top: 35px;}
 footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
