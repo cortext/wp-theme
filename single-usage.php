@@ -35,10 +35,13 @@ $type = get_post_type();
 
 ?>
 
+	<div class="type"><?= $type ?></div>
 
 
 	<div class="entry-content">
 
+	<?php echo get_the_term_list( $post->ID, 'auteur', '<h6> ', ' , ', '</h6>' ) ?>
+	<?php echo get_the_term_list( $post->ID, 'année', '<h7> ', ', ', '</h7>' ) ?>
 
 
 	<?php the_post_thumbnail('post-full'); ?>

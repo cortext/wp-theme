@@ -37,6 +37,13 @@ $type = get_post_type();
 
 	<div class="type"><?= $type ?></div>
 
+<div class="col-abstract">
+<?php echo get_the_term_list( $post->ID, 'date', '<p>date : ', ', ', '</p>' ) ?>
+<?php echo get_the_term_list( $post->ID, 'time', '<p>time : ', ', ', '</p>' ) ?>
+<?php echo get_the_term_list( $post->ID, 'place', '<p>place : ', ', ', '</p>' ) ?>
+<?php echo get_the_term_list( $post->ID, 'intervenant', '<p>intervenant : ', ', ', '</p>' ) ?>
+</div>
+
 
 	<div class="entry-content">
 

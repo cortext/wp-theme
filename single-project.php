@@ -35,10 +35,14 @@ $type = get_post_type();
 
 ?>
 
-	<div class="type"><?= $type ?>
+	<div class="type">
 	<?php $category = get_the_category();
 	echo $category[0]->cat_name; ?>
 	</div>
+
+<div class="col-abstract">
+ <? the_excerpt() ?>
+</div>
 
 
 	<div class="entry-content">

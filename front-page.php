@@ -103,6 +103,8 @@ while ( $projects_collaboration->have_posts() ) : $projects_collaboration->the_p
 endwhile; ?>
 </div>
 
+
+
 <div id="team">
 <h3>Team</h3>
 
