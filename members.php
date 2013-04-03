@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Snarfer
+Template Name: members
 */
 ?>
 <?php
