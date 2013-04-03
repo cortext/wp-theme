@@ -21,9 +21,6 @@ add_image_size( 'loop-front', 310, 9999 );
 add_action( 'init', 'create_workshop_type' );
 add_action( 'init', 'create_project_type' );
 add_action( 'init', 'create_usage_type' );
-add_action( 'init', 'create_member_type' );
-
-
 
 
 function create_usage_type() {
