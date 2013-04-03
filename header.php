@@ -43,7 +43,7 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
 				<li><a href="http://localhost:8888/site-cortext/?page_id=2">About us</a></li>
-				<li><a href="http://localhost:8888/site-cortext/?page_id=42">Team</a></li>
+				<li><a href="http://localhost:8888/site-cortext/team-plateforme/">Team</a></li>
 				<li><a href="/#projects_platform">Projects</a></li>
 				<li><a href="http://localhost:8888/site-cortext/workshop">Workshops</a></li>
 				<li><a href="http://localhost:8888/site-cortext/usage">Usages</a></li>				

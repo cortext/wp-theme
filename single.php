@@ -34,9 +34,30 @@ $type = get_post_type();
 
 	<div class="entry-content">
 
-	<?php the_post_thumbnail('post-full'); ?>
 
-	<?php the_content() ?>
+<div id="team">
+	<h2>Members of Cortext Digital Platform </h2>
+    
+<div class="col col-w-2">
+	<ul id="members">
+<?
+$members = get_users('exclude=1&orderby=user_lastname');
+
+foreach($members as $m){?>
+	<li>
+		<span class="portrait">
+        <img src="http://localhost:8888/site-cortext/wp-content/themes/wp-theme/images/portraits/<?= $m->user_login ?>.jpg" /></span>
+		<span class="name"><?= $m->display_name ?></span>
+		<span class="shortbio"><?= short_bio($m->description) ?></span>
+		<a href="<?= $m->user_url ?>" class="url"><?= $m->user_url ?></a>
+
+	</li>
+<? } ?>
+</ul>
+</div>
+</div>
+
+
 	</div>
 
 </article>
