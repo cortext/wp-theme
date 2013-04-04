@@ -44,7 +44,7 @@
 			<ul>
 				<li><a href="http://localhost:8888/site-cortext/?page_id=2">About us</a></li>
 				<li><a href="http://localhost:8888/site-cortext/members/">Team</a></li>
-				<li><a href="http://localhost:8888/site-cortext/projects/">Projects</a></li>
+				<li><a href="http://localhost:8888/site-cortext/project/">Projects</a></li>
 				<li><a href="http://localhost:8888/site-cortext/workshop">Workshops</a></li>
 				<li><a href="http://localhost:8888/site-cortext/usage">Usages</a></li>				
 		</nav><!-- #site-navigation -->

@@ -70,8 +70,9 @@ text-align: right;}
 
 article { position : relative; margin-top : 20px; }
 
-.single-workshop article h1,.single-project article h1, .post-type-archive-workshop article h1, .page-template-projects-php article h1 { background :#FF194B !important; }
-.page-template-projects-php article p { font: 16px/1.3em Alice !important; margin-left:-15px !important; }
+.single-workshop article h1,.single-project article h1, .post-type-archive-workshop article h1,
+.post-type-archive-project article h1{ background :#FF194B !important; }
+.post-type-archive-project article p { font: 16px/1.3em Alice !important; margin-left:-15px !important; }
 
 .page article h1, .single-post article h1 {background:#63B504;}
 .single-usage article h1, .post-type-archive-usage article h1 {background:#275bc3;}
