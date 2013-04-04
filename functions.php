@@ -36,8 +36,10 @@ function create_usage_type() {
 	);
 }
 
+
 register_taxonomy( 'auteur', 'usage', array( 'hierarchical' => false, 'label' => 'auteur', 'query_var' => true, 'rewrite' => true ) );
 register_taxonomy( 'année', 'usage', array( 'hierarchical' => false, 'label' => 'année', 'query_var' => true, 'rewrite' => true ) );
+
 
 
 function create_workshop_type() {
@@ -87,6 +89,5 @@ function create_project_type() {
 	);
 }
 
-
-
+register_taxonomy( 'lien', 'project', array( 'hierarchical' => false, 'label' => 'lien', 'query_var' => true, 'rewrite' => true ) );
 ?>

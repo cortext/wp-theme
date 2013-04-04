@@ -38,7 +38,7 @@ nav li a:hover { background-color: #626777; color : white; }
 #content { width : 960px; margin : 0 auto; color : #666; }
 
 #content .col { width : 300px; float : left; margin-left : 20px; }
-#content .col.col-w-2 { width : 750px;margin-left:65px; margin-top:30px; }
+#content .col.col-w-2 { width : 750px;margin-left:110px; margin-top:30px; }
 
 #content h3 { color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
    margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
@@ -54,6 +54,8 @@ margin-top:35px;margin-left:15px; }
 
 .single-usage h4 {margin-top:15px !important;}  
 #content h4 a { font-family: Museo500; color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none;margin-left:15px; }
+#content .url { font : normal 14px Alice; color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none;
+}
 #content .col p { font : normal 12px arial, serif; color: #666666; font-weight: 400; line-height: 20px; margin-bottom: 20px; margin-top: 0; text-align: left; text-indent: 0; }
 #content p a { color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
 
@@ -110,7 +112,8 @@ footer #address div span { display : block; }
 footer #address div.email { margin-top : 1em; color : #B3B9BC }
 
 #members { font-size : 12px; color : #333; line-height : 120%; }
-#members li { width : 145px; float : left; margin-right : 100px; margin-bottom:  10px; }
+#members li { width : 200px; float : left; margin-right : 170px; margin-bottom:  10px; }
 #members li span { display : block; }
-#members li span.name { text-transform: capitalize; }
-#members li span.shortbio { color : #999; }
+#members li span.name { text-transform: capitalize;color : #333;font : normal 17px/1.4em Museo500;margin-top:5px;
+margin-bottom:5px; }
+#members li span.shortbio { color : #737373;font : normal 14px/1.4em Alice; margin-bottom:5px; }

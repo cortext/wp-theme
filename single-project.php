@@ -41,12 +41,14 @@ $type = get_post_type();
 	</div>
 
 <div class="col-abstract">
+
  <? the_excerpt() ?>
 </div>
 
 
 	<div class="entry-content">
 
+<?php echo get_the_term_list( $post->ID, 'lien', '<a> ', ', ', '</a>' ) ?>
 
 
 	<?php the_post_thumbnail('post-full'); ?>
