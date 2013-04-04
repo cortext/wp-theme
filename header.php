@@ -44,7 +44,7 @@
 			<ul>
 				<li><a href="/cortext">About us</a></li>
 				<li><a href="/members/">Team</a></li>
-				<li><a href="/site-cortext/project/">Projects</a></li>
+				<li><a href="/project/">Projects</a></li>
 				<li><a href="/workshop">Workshops</a></li>
 				<li><a href="/usage">Usages</a></li>				
 		</nav><!-- #site-navigation -->

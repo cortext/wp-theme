@@ -41,7 +41,6 @@ $type = get_post_type();
 
 
 <div id="team">
-	<h2>Members of Cortext Digital Platform </h2>
     
 <div class="col col-w-2">
 	<ul id="members">
@@ -51,7 +50,7 @@ $members = get_users('exclude=1&orderby=user_lastname');
 foreach($members as $m){?>
 	<li>
 		<span class="portrait">
-        <img src="/images/portraits/<?= $m->user_login ?>.jpg" /></span>
+        <img src="/wp-content/themes/cortext/images/images/portraits/<?= $m->user_login ?>.jpg" /></span>
 		<span class="name"><?= $m->display_name ?></span>
 		<span class="shortbio"><?= short_bio($m->description) ?></span>
 		<a href="<?= $m->user_url ?>" class="url"><?= $m->user_url ?></a>
