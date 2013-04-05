@@ -11,7 +11,7 @@ get_header(); ?>
 
 
 <div id="projects_platform" class="projects">
-<h3>Platform's projects</h3>
+<h3 class="type">platform</h3>
 
 <?php
 
@@ -31,7 +31,7 @@ endwhile; ?>
 </div>
 
 <div class="projects">
-<h3>Last collaborations</h3>
+<h3 class="type">collaborations</h3>
 
 <?php
 

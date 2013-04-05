@@ -20,11 +20,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
-body {
+/*body {
   background-image: url("images/grid-y.png");
   background-position: center top;
   background-repeat: repeat-y;
-}
+}*/
 
 header { margin-top: 7px; }
 header hgroup { width : 960px; margin : 0 auto; position : relative; background-repeat: no-repeat; background-image: url('images/ifris_logo_seule.png'); background-position: right center;}
@@ -112,6 +112,12 @@ article .entry-content div > .wp-caption-text { /*position : absolute;*/ width :
 .single-workshop #content .col-abstract p { text-align : left;}
 .single-workshop #content .col-abstract p span { width : 150px; display : inline-block; text-align : right; margin-right : 10px; }
 
+.single-workshop #content .type, .post-type-archive-workshop #content h3.type { color : #FF194B; }
+.single-project #content .type, .post-type-archive-project #content h3.type { color : #FF194B; }
+.single-usage #content .type , .post-type-archive-usage #content h3.type{ color : #275bc3; }
+
+
+.archive #content h3.type { height : 0; width : 140px; margin : 0; top : 5px; left : -151px; }
 
 footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
 footer > div { width : 960px; margin : 0 auto; }
