@@ -38,7 +38,7 @@ nav li a:hover { background-color: #626777; color : white; }
 #content { width : 960px; margin : 0 auto; color : #666; }
 
 #content .col { width : 300px; float : left; margin-left : 20px; }
-.page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:15px; }
+.page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:15px;margin-bottom:30px; }
 
 
 #content .col.col-w-2 { width : 310px; }
