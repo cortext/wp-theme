@@ -34,7 +34,7 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
-				<li><a href="/cortext">About us</a></li>
+				<li><a href="/about-us">About us</a></li>
 				<li><a href="/members/">Team</a></li>
 				<li><a href="/project/">Projects</a></li>
 				<li><a href="/workshop">Workshops</a></li>
