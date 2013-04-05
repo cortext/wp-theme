@@ -43,7 +43,9 @@ nav li a:hover { background-color: #626777; color : white; }
 #primary { width : 100%; }
 #content { width : 960px; margin : 0 auto; color : #666; }
 
-#content .col { width : 300px; float : left; margin-left : 20px; }
+#content .col { width : 300px; float : left; margin-left : 10px; }
+#content .col + .col { margin-left : 20px; }
+
 .page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:15px;margin-bottom:30px; }
 #content .col.col-w-2 { width : 620px; }
 #content h3 {color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
@@ -67,7 +69,7 @@ margin-left:15px; }
 #content p a { color:#F26710; border-bottom : solid 1px #F26710; text-decoration : none; }
 
 #content .col-abstract { width:175px;position:absolute; }
-#content .col-abstract p{font-family: Alice;font-size: 14px;line-height: 24px; text-align: right;color:A3A3A3; }
+#content .col-abstract p {font-family: Alice;font-size: 14px;line-height: 24px; text-align: right;color:A3A3A3; }
 
 #content .abstract p { font-family: Alice;font-size: 17px;line-height: 24px; margin-bottom: 24px;
 text-align: right; font-weight:400;margin-top:-3px;}
