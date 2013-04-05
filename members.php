@@ -50,7 +50,7 @@ $members = get_users('exclude=1&orderby=user_lastname');
 foreach($members as $m){?>
 	<li>
 		<span class="portrait">
-        <img src="/wp-content/themes/cortext/images/images/portraits/<?= $m->user_login ?>.jpg" />
+        <img src="/wp-content/themes/cortext/images/portraits/<?= $m->user_login ?>.jpg" />
         </span>
 		<span class="name"><?= $m->display_name ?>
         </span>
