@@ -77,7 +77,6 @@ article { position : relative; margin-top : 20px; }
 .post-type-archive-project article h1{ background :#FF194B !important; }
 .post-type-archive-project article p { font: 16px/1.3em Alice !important; margin-left:-15px !important; }
 .post-type-archive-project #content h3 { margin-left:15px; }
-
 .page article h1, .single-post article h1 {background:#63B504;}
 
 article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px;margin-bottom:25px; }
@@ -92,6 +91,7 @@ article .entry-content div > .wp-caption-text { /*position : absolute;*/ width :
 
 .single-workshop article .entry-content div { position : relative; }
 .single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
+.single-workshop .col-abstract a{color:#666666 !important; border-bottom:none !important;}
 .single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px;margin-top:10px; }
 .single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
 .single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
