@@ -38,8 +38,10 @@ nav li a:hover { background-color: #626777; color : white; }
 #content { width : 960px; margin : 0 auto; color : #666; }
 
 #content .col { width : 300px; float : left; margin-left : 20px; }
-#content .col.col-w-2 { width : 750px;margin-left:110px; margin-top:30px; }
+.page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:110px; margin-top:30px; }
 
+
+#content .col.col-w-2 { width : 310px; }
 #content h3 { color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
    margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
    
@@ -62,7 +64,7 @@ margin-left:15px; }
 #content .col-abstract { width:175px;position:absolute; }
 #content .col-abstract p{font-family: Alice;font-size: 14px;line-height: 24px; text-align: right;color:A3A3A3; }
 
-#content .abstract p { font-family: Alice;font-size: 17px;line-height: 24px; margin-bottom: 24px;font-weight:400;
+#content .abstract p { font-family: Museo500;font-size: 17px;line-height: 24px; margin-bottom: 24px;
 text-align: right;}
 
 .projects .project { width : 650px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
@@ -102,7 +104,7 @@ a img { border: 0;}
 
 article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
 /*article .usage, article .workshop{margin-top:35px;}
-*/article #team h2{color: #333333;font-family: Museo300;font-size: 25px;margin-bottom: 20px;margin-left: 15px;margin-top: 35px;}
+article #team h2{font : normal 25px Museo300; color: #333333; margin-bottom: 20px;margin-left: 15px;margin-top: 35px;}*/
 footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
 footer > div { width : 960px; margin : 0 auto; }
 
@@ -112,7 +114,8 @@ footer #address div span { display : block; }
 footer #address div.email { margin-top : 1em; color : #B3B9BC }
 
 #members { font-size : 12px; color : #333; line-height : 120%; }
-#members li { width : 200px; float : left; margin-right : 170px; margin-bottom:  10px; }
+.page-template-members-php #members li { width : 200px; float : left; margin-right : 170px; margin-bottom:  10px; }
+#members li{float: left; margin-bottom: 10px; margin-right: 10px; width: 145px;}
 #members li span { display : block; }
 #members li span.name { text-transform: capitalize;color : #333;font : normal 17px/1.4em Museo300;margin-top:5px;
 margin-bottom:5px; }
