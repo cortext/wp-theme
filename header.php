@@ -42,11 +42,11 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
-				<li><a href="http://localhost:8888/site-cortext/cortext/">About us</a></li>
-				<li><a href="http://localhost:8888/site-cortext/members/">Team</a></li>
-				<li><a href="http://localhost:8888/site-cortext/project/">Projects</a></li>
-				<li><a href="http://localhost:8888/site-cortext/workshop">Workshops</a></li>
-				<li><a href="http://localhost:8888/site-cortext/usage">Usages</a></li>				
+				<li><a href="/cortext">About us</a></li>
+				<li><a href="/members/">Team</a></li>
+				<li><a href="/project/">Projects</a></li>
+				<li><a href="/workshop">Workshops</a></li>
+				<li><a href="/usage">Usages</a></li>				
 		</nav><!-- #site-navigation -->
 
 		<?php $header_image = get_header_image();
