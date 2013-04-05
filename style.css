@@ -39,15 +39,12 @@ nav li a:hover { background-color: #626777; color : white; }
 
 #content .col { width : 300px; float : left; margin-left : 20px; }
 .page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:15px;margin-bottom:30px; }
-
-
 #content .col.col-w-2 { width : 620px; }
-#content h3 { color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
-   margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
-.post-type-archive-project #content h3 { margin-left:15px; }
+#content h3 {color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
+   margin-bottom: 24px; font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
+.post-type-archive-project #content h3 {margin-top:0px !important;}
 
-   
-#content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
+#content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 4px; }
 #content h5 { font-family: Museo300; color : #333333; font-size: 25px; line-height : 25px; margin-bottom : 20px;
 margin-left:15px; }
 #content h6 a { color: #333333;font-family: Museo300;font-style: normal;font-weight: 500;line-height: 24px; font-size: 18px;clear : both;text-decoration:none; }
@@ -67,7 +64,7 @@ margin-left:15px; }
 #content .col-abstract p{font-family: Alice;font-size: 14px;line-height: 24px; text-align: right;color:A3A3A3; }
 
 #content .abstract p { font-family: Alice;font-size: 17px;line-height: 24px; margin-bottom: 24px;
-text-align: right; font-weight:400;}
+text-align: right; font-weight:400;margin-top:-3px;}
 
 .projects .project { width : 650px; position : relative; display : block; margin-bottom : 30px; overflow : hidden; }
 .projects .project .thumbnail { background : #FAFAFA; width : 310px; height : 135px; position : absolute; top : 0; }
@@ -79,34 +76,29 @@ article { position : relative; margin-top : 20px; }
 .single-workshop article h1,.single-project article h1, .post-type-archive-workshop article h1,
 .post-type-archive-project article h1{ background :#FF194B !important; }
 .post-type-archive-project article p { font: 16px/1.3em Alice !important; margin-left:-15px !important; }
+.post-type-archive-project #content h3 { margin-left:15px; }
 
 .page article h1, .single-post article h1 {background:#63B504;}
-.single-usage article h1, .post-type-archive-usage article h1 {background:#275bc3;}
-article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px;margin-bottom:25px; }
-/*article .type { width : 170px; font : normal 20px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : red; text-align : right; color : white; position : relative; margin-bottom : -34px; top : -44px; } */
 
+article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px;margin-bottom:25px; }
 article .type { width : 170px; font : normal 20px/1.2em museo300; padding : 0.4em 0px 0.4em 0px; background : white; text-align : right; color : #393939; position : relative; margin-bottom : -40px; top : -61px; }
 article .entry-content { width : 490px; position : relative; left : 190px; color : #393939;font : normal 16px/1.7em Alice; }
 article .entry-content p { font : normal 16px/1.7em Alice; margin-bottom : 1.4em;color:#393939;
 text-align:left;padding-left:15px; }
 article .entry-content p iframe{ margin-left:-15px;margin-bottom:-15px;margin-top:-15px; }
-
 a img { border: 0;}
-/*article .entry-content a { color:black; border-bottom : solid 1px #C4017B; text-decoration : none; }
-*/article .entry-content > img, .single-project .entry-content > img { position : relative; /*left : -170px;*/ }
+article .entry-content > img, .single-project .entry-content > img { position : relative; /*left : -170px;*/ }
+article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
+
 .single-workshop article .entry-content div { position : relative; }
 .single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
 .single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px;margin-top:10px; }
-
 .single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
 .single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
-
 .single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
 .single-project article .entry-content div > img { margin-bottom : 0.8em; }
+.single-usage article h1, .post-type-archive-usage article h1 {background:#275bc3;}
 
-article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
-/*article .usage, article .workshop{margin-top:35px;}
-article #team h2{font : normal 25px Museo300; color: #333333; margin-bottom: 20px;margin-left: 15px;margin-top: 35px;}*/
 footer { clear : both; margin-top : 30px; background-color: #626777; border-top: 5px solid #DC67A6; padding : 16px 0; }
 footer > div { width : 960px; margin : 0 auto; }
 
