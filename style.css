@@ -38,12 +38,14 @@ nav li a:hover { background-color: #626777; color : white; }
 #content { width : 960px; margin : 0 auto; color : #666; }
 
 #content .col { width : 300px; float : left; margin-left : 20px; }
-.page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:110px; margin-top:30px; }
+.page-template-members-php #content .col.col-w-2 { width : 750px;margin-left:122px; margin-top:30px; }
 
 
 #content .col.col-w-2 { width : 310px; }
 #content h3 { color: #999999;font-family: Museo500;font-style: normal;font-weight: 500;line-height: 24px;
    margin-bottom: 24px;margin-top: 0;font-size: 16px; margin-bottom: 16px; margin-top : 30px; clear : both; }
+.post-type-archive-project #content h3 { margin-left:15px; }
+
    
 #content h4 { font-family: Museo500; color : #333333; font-size: 16px; line-height : 20px; margin-bottom : 5px; }
 #content h5 { font-family: Museo300; color : #333333; font-size: 25px; line-height : 25px; margin-bottom : 20px;
@@ -83,7 +85,7 @@ article { position : relative; margin-top : 20px; }
 article h1 { font : normal 25px/1.2em Museo300, arial, serif; padding : 0.1em 10px 0.1em 15px; width : 745px; color : white; background : #B2B2B2; position : relative; left : 190px;margin-bottom:25px; }
 /*article .type { width : 170px; font : normal 20px/1.2em museo700; padding : 0.5em 10px 0.5em 10px; background : red; text-align : right; color : white; position : relative; margin-bottom : -34px; top : -44px; } */
 
-article .type { width : 170px; font : normal 20px/1.2em museo300; padding : 0.4em 0px 0.4em 0px; background : white; text-align : right; color : #393939; position : relative; margin-bottom : -40px; top : -62px; }
+article .type { width : 170px; font : normal 20px/1.2em museo300; padding : 0.4em 0px 0.4em 0px; background : white; text-align : right; color : #393939; position : relative; margin-bottom : -40px; top : -61px; }
 article .entry-content { width : 490px; position : relative; left : 190px; color : #393939;font : normal 16px/1.7em Alice; }
 article .entry-content p { font : normal 16px/1.7em Alice; margin-bottom : 1.4em;color:#393939;
 text-align:left;padding-left:15px; }
