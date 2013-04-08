@@ -111,9 +111,9 @@ article .entry-content div > .wp-caption-text { /*position : absolute;*/ width :
 article .entry-content ul { list-style-type: square; padding-left : 2em; margin-bottom : 1em;}
 
 .single-workshop article .entry-content div { position : relative; }
-.single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
+.single-workshop article .entry-content img { margin-bottom:25px;width:770px; }
 .single-workshop .col-abstract a{color:#666666 !important; border-bottom:none !important;}
-.single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px;margin-top:10px; }
+.single-project article .entry-content img { margin-bottom:5px;width:770px; margin-top:10px; }
 .single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px; }
 .single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
 .single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;width:770px; }
