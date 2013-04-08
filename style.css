@@ -102,6 +102,10 @@ text-align:left;padding-left:15px; }
 article .entry-content p iframe{ margin-left:-15px;margin-bottom:-15px;margin-top:-15px; }
 a img { border: 0;}
 article .entry-content img, .single-project .entry-content img { position : relative; left : -150px; }
+
+/* HUM */
+article .entry-content .thumbnail img, .single-project .entry-content .thumbnail img { left : 0; }
+
 article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
 
 .single-workshop article .entry-content div { position : relative; }
