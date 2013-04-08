@@ -138,7 +138,7 @@ footer #address div.email { margin-top : 1em; color : #B3B9BC }
 #members li span.name { text-transform: capitalize;color : #333;font : normal 17px/1.4em Museo300;margin-top:5px;
 margin-bottom:5px; }
 #members li span.shortbio { color : #666666;font : normal 12px/1.4em arial; margin-bottom:5px; line-height:20px; }
-
+#members img { width : 145px; }
 
 .page-template-members-php #members li { width : 200px; margin-right : 170px; margin-bottom:  10px; float : none; min-height : 150px;}
 .page-template-members-php #members li .portrait { position : relative; left : -170px; height :0; }
