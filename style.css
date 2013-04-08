@@ -20,11 +20,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
-/*body {
+/* grid test */
+/*
+body {
   background-image: url("images/grid-y.png");
   background-position: center top;
   background-repeat: repeat-y;
-}*/
+}
+*/
 
 header { margin-top: 7px; }
 header hgroup { width : 960px; margin : 0 auto; position : relative; background-repeat: no-repeat; background-image: url('images/ifris_logo_seule.png'); background-position: right center;}
@@ -69,6 +72,8 @@ margin-left:15px; }
 
 #content .col-abstract { width:300px; position:absolute; left : 10px;}
 #content .col-abstract p {font-family: Alice;font-size: 14px;line-height: 24px; text-align: right;color:A3A3A3; }
+
+#content #featured-image { margin-bottom: 12px; }
 
 #content .abstract p { font-family: Alice;font-size: 17px;line-height: 24px; margin-bottom: 24px;
 text-align: right; font-weight:400;margin-top:-3px;}

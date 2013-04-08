@@ -25,23 +25,19 @@ $type = get_post_type();
 	echo $category[0]->cat_name; ?>
 	</div>
 
-<div class="col-abstract">
+<div id="featured-image">
+  <?php the_post_thumbnail('post-full'); ?>
+</div>
 
+<div class="col-abstract">
  <? the_excerpt() ?>
 </div>
 
+<div class="entry-content">
+  <?php echo get_the_term_list( $post->ID, 'lien', '<a> ', ', ', '</a>' ) ?>
 
-	<div class="entry-content">
-
-<?php echo get_the_term_list( $post->ID, 'lien', '<a> ', ', ', '</a>' ) ?>
-
-
-	<?php the_post_thumbnail('post-full'); ?>
-
-	<?php the_content() ?>
-    
-    
-	</div>
+  <?php the_content() ?>
+</div>
 
 </article>
 
