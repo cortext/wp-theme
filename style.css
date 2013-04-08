@@ -114,9 +114,9 @@ article .entry-content ul { list-style-type: square; padding-left : 2em; margin-
 .single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
 .single-workshop .col-abstract a{color:#666666 !important; border-bottom:none !important;}
 .single-project article .entry-content img { margin-bottom:5px;width:770px;height:325px;margin-top:10px; }
-.single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
+.single-workshop article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;margin-top:25px;width:770px; }
 .single-workshop article .entry-content div > img { margin-bottom : 0.8em; }
-.single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;width:770px;height:325px;/*left : -170px; width : 660px; margin-top : 0.8em;*/ }
+.single-project article .entry-content div > img, article .entry-content p > img { position : relative; margin-bottom:25px;width:770px; }
 .single-project article .entry-content div > img { margin-bottom : 0.8em; }
 .single-usage article h1, .post-type-archive-usage article h1 {background:#275bc3;}
 
