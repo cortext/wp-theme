@@ -103,12 +103,10 @@ $members = get_users('exclude=1&orderby=user_lastname');
 
 foreach($members as $m){?>
 	<li>
-		<span class="portrait"><a href="/members#">
+		<span class="portrait">
        <img src="/wp-content/themes/cortext/images/portraits/<?= $m->user_login ?>.jpg" /></a></span>
-		<span class="name"><?= $m->display_name ?></span>
+		<span class="name"><a href="/members#<?= $m->user_login ?>"><?= $m->display_name ?></a></span>
 		<span class="shortbio"><?= short_bio($m->description) ?></span>
-		<a href="<?= $m->user_url ?>" class="url"><?= $m->user_url ?></a>
-
 
 	</li>
 <? } ?>

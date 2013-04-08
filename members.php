@@ -49,6 +49,7 @@ $members = get_users('exclude=1&orderby=user_lastname');
 
 foreach($members as $m){?>
 	<li>
+    <a id="<?= $m->user_login ?>" />
 		<span class="portrait">
         <img src="/wp-content/themes/cortext/images/portraits/<?= $m->user_login ?>.jpg" />
         </span>
