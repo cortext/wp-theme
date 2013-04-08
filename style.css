@@ -138,7 +138,7 @@ footer #address div { color : white; font-size : 12px; line-height: 1.5em; margi
 footer #address div span { display : block; }
 footer #address div.email { margin-top : 1em; color : #B3B9BC }
 
-#members { font-size : 12px; color : #333; line-height : 120%; list-style-type: none; margin-left : 0;}
+#members { font-size : 12px; color : #333; line-height : 120%; list-style-type: none; padding-left : 0;}
 #members li{ float: left; margin-bottom: 10px; margin-right: 10px; width: 145px;}
 #members li span { display : block; }
 #members li span.name { text-transform: capitalize;color : #333;font : normal 17px/1.4em Museo300;margin-top:5px;
