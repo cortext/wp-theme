@@ -108,7 +108,7 @@ article .entry-content .thumbnail img, .single-project .entry-content .thumbnail
 
 article .entry-content div > .wp-caption-text { /*position : absolute;*/ width : 500px; color : #999999;margin-top:-15px;font-size:14px;margin-bottom:15px; }
 
-article .entry-content ul { list-style-type: square; padding-left : 2em; }
+article .entry-content ul { list-style-type: square; padding-left : 2em; margin-bottom : 1em;}
 
 .single-workshop article .entry-content div { position : relative; }
 .single-workshop article .entry-content img { margin-bottom:25px;width:770px;height:325px; }
